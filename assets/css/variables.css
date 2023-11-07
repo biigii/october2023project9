@@ -1,0 +1,7 @@
+:root {
+  --brand: rgb(31, 31, 208);
+  --brand-text: rgb(220, 107, 107);
+  --site-width: 1400px;
+  /* --font-family: "My Custom Font"; */
+  --font-family: 'Montserrat', sans-serif;
+}

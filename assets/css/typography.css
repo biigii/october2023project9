@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "My Custom Font";
+  src: url("../fonts/Agbalumo-Regular.ttf");
+}
+
+.navigation a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 4em;
+  /* font-style: italic; */
+  font-weight: 900;
+  text-align: center;
+  /* text-decoration: underline; */
+  /* text-decoration: overline; */
+  /* text-decoration: line-through; */
+  text-shadow: 3px 3px 10px var(--brand);
+  text-transform: capitalize;
+}
+
+p {
+  /* font-variant: small-caps; */
+  /* 100 - 900 */
+  /* 16px */
+  /* line-height: 1.2; */
+  font: bold 24px sans-serif;
+  text-align: justify;
+  text-indent: 50px;
+  text-transform: uppercase;
+  /* letter-spacing: 5px; */
+  word-spacing: 50px;
+}
