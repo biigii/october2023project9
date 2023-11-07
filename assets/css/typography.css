@@ -1,0 +1,25 @@
+p {
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 12em;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 8em;
+  }
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  h2 {
+    text-align: center;
+  }
+}
