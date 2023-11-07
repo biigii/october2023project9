@@ -1,8 +1,35 @@
-.box {
-  border: 2px solid;
-  width: 300px;
-  height: 200px;
-  margin: 20px auto;
-  /* box-shadow: 5px 5px 3px inset #f11; */
-  box-shadow: 3px 3px 3px rgba(100, 120, 230, 0.75);
+/* body {
+  background-color: #850b0b;
+} */
+
+/* @font-face
+@import */
+@media (max-width: 800px) {
+  /*  up to 1000px width i would like to apply these styling */
+  body {
+    background-color: #f00;
+  }
+  h1 {
+    color: #00f;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  body {
+    background-color: #0f0;
+  }
+
+  h1 {
+    color: #fff;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* 1000px and up apply these styling */
+  body {
+    background-color: #00f;
+  }
+  h1 {
+    color: #f00;
+  }
 }
